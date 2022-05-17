@@ -1,0 +1,28 @@
+version: '3'
+
+services:
+  precad-dts-apache-environment:
+    container_name: precad-dts-application-server
+    build:
+      context: ./php
+      dockerfile: Dockerfile
+    depends_on:
+      - precad-dts-mysql-environment
+    volumes:
+      - ./public_html:/var/www/html/
+    ports:
+      - 8017:80
+
+  precad-dts-mysql-environment:
+    container_name: precad-dts-application-database
+    image: mysql
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: 8y17tzps@Root@DatabasePassword
+      MYSQL_DATABASE: precad
+      MYSQL_USER: dts
+      MYSQL_PASSWORD: 8y17tzps@Application@Admin
+    ports:
+      - "9906:3306"
+    volumes:
+      - ./db:/var/lib/mysql

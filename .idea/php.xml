@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PhpIncludePathManager">
+    <include_path>
+      <path value="$PROJECT_DIR$/public_html/vendor/composer" />
+      <path value="$PROJECT_DIR$/public_html/vendor/twbs/bootstrap" />
+      <path value="$PROJECT_DIR$/public_html/vendor/phpmailer/phpmailer" />
+      <path value="$PROJECT_DIR$/public_html/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/public_html/vendor/symfony/polyfill-intl-grapheme" />
+      <path value="$PROJECT_DIR$/public_html/vendor/symfony/polyfill-php80" />
+      <path value="$PROJECT_DIR$/public_html/vendor/symfony/string" />
+      <path value="$PROJECT_DIR$/public_html/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/public_html/vendor/symfony/polyfill-intl-normalizer" />
+      <path value="$PROJECT_DIR$/public_html/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/public_html/vendor/symfony/deprecation-contracts" />
+      <path value="$PROJECT_DIR$/public_html/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/public_html/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/public_html/vendor/symfony/polyfill-php73" />
+    </include_path>
+  </component>
+  <component name="PhpProjectSharedConfiguration" php_language_level="7.0">
+    <option name="suggestChangeDefaultLanguageLevel" value="false" />
+  </component>
+</project>
