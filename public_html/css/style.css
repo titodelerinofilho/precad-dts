@@ -26,6 +26,10 @@ footer {
 .row {
     margin: 0;
 }
+.imgLogo {
+    width: 150px;
+    height: 150px;
+}
 #main-header a {
     color: white;
     font-size: 13px;
@@ -54,15 +58,11 @@ a#dropdownLink {
 }
 #content-col {
     background-color: #94e5a5;
-    padding: 20px;
     align-content: center;
 }
 #content-col img {
-    width: 40%;
+    width: 20%;
     margin: 10px;
-}
-#content-row .coluna {
-    margin-bottom: 15px;
 }
 .imgGallery img {
     width: 10%;
