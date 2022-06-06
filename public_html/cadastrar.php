@@ -152,7 +152,11 @@
         </div>
     </div>
     <footer>
-        <p>&reg; DTS Distribuidora de Equipamentos de Segurança Eletrônica LTDA</p>
+        <div><p>&reg; DTS Distribuidora de Equipamentos de Segurança Eletrônica LTDA</p></div>
+        <div class="text-center">
+            <img src="img/ssl.png" width="20%"/>
+            <p>Este formulário é protegido por criptografia SSL Let's Encrypt.</p></div>
+
     </footer>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="js/valida.js"></script>

@@ -21,7 +21,7 @@ class Conexao
 
         try {
 
-            self::$instance = new \PDO('mysql:host=precad-dts-application-database;dbname=precad', $user, $pass, $options);
+            self::$instance = new \PDO('mysql:host=127.0.0.1;dbname=precad', $user, $pass, $options);
         }
         catch(\PDOException $exception) {
             return die("Database Failed to Connection: ".$exception->getMessage());
