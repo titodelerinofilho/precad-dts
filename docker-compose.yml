@@ -11,7 +11,8 @@ services:
     volumes:
       - ./public_html:/var/www/html/
     ports:
-      - 8017:80
+      - 80:80
+      - 443:443
 
   precad-dts-mysql-environment:
     container_name: precad-dts-application-database
